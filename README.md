@@ -14,7 +14,9 @@ The dashboard is ideal for finance, operations, and product teams to track perfo
 [Part 3: Dashboard Breakdown](#section_4)<br>
 [Part 4: Recommendations & Next Steps](#section_5)<br>
 
-Project Summary
+<a id='section_1'></a>
+
+# Project Summary
 
 This project focuses on analyzing global export and import data for the years 2013-2023. The dashboard breaks down the primary value of goods by product category (cmdCode) and country (partnerDesc), enabling an in-depth understanding of trade flow dynamics.
 
@@ -34,7 +36,6 @@ The data will help stakeholders better understand shifts in product demand, iden
 
 # Key Metrics & Insights
 
-
 ## Total Value:
 
 - `Export`: $572.44bn
@@ -50,14 +51,10 @@ The data will help stakeholders better understand shifts in product demand, iden
 ## Top Partners:
 
 - China leads as the top partner country with a total value of $102.27bn.
-
-
 - Other key partners include the USA, Rep. of Korea, and United Arab Emirates.
 
 ## Yearly Trends:
-
 - There is a clear upward trend in cmdCode 8517 (Telephone sets) across 2013-2025, particularly driven by telecommunications equipment.
-
 - Export performance consistently exceeds import performance in this period.
 
 <a id='section_3'></a>
@@ -96,14 +93,14 @@ From the line chart of sum primary value by period, I observed the following tre
 ### 1. Top Product Categories (cmdCode)
 The import data shows a strong dominance of a few product categories:
 
-- `cmdCode 8517 (telecommunication equipment):` This category represents 91.47% of the total import value, with $170 billion attributed to products like smartphones and telecommunication sets. This highlights the continued high demand for communication devices and related infrastructure products globally.
-- `cmdCode 8528 (monitors and projectors):` Contributes only 5.56% with $10 billion in imports, which is much smaller compared to cmdCode 8517. Despite being a significant product category, its demand is much lower than telecommunication devices.
+- `cmdCode 8517 (telecommunication equipment):` This category represents **91.47%** of the total import value, with $170 billion attributed to products like smartphones and telecommunication sets. This highlights the continued high demand for communication devices and related infrastructure products globally.
+- `cmdCode 8528 (monitors and projectors):` Contributes only **5.56%** with $10 billion in imports, which is much smaller compared to cmdCode 8517. Despite being a significant product category, its demand is much lower than telecommunication devices.
 - `cmdCode 8418 (refrigerators and freezers):` Contributes a very small proportion of the total imports, indicating low demand for refrigeration and cooling products compared to telecommunication devices.
 
 ### 2. Top Import Partners (Partner Description)
-- China stands as the largest import partner, with a total of $102.27 billion in imports, making up a significant share of the imports in this category. This is consistent with China’s position as a key supplier of electronics, including telecommunication devices.
-- Rep. of Korea follows as the second-largest partner, with $61.97 billion in imports. This is likely driven by the demand for smartphones and other mobile technologies, with Korea being a major player in these industries.
-- Thailand and other Southeast Asian countries (Malaysia, Indonesia) also appear as notable import partners, receiving a significant portion of the import value, primarily in the form of technology products.
+- **China** stands as the largest import partner, with a total of $102.27 billion in imports, making up a significant share of the imports in this category. This is consistent with China’s position as a key supplier of electronics, including telecommunication devices.
+- **Rep. of Korea** follows as the second-largest partner, with $61.97 billion in imports. This is likely driven by the demand for smartphones and other mobile technologies, with Korea being a major player in these industries.
+- **Thailand** and other **Southeast Asian countries (Malaysia, Indonesia)** also appear as notable import partners, receiving a significant portion of the import value, primarily in the form of technology products.
 
 3. **Yearly Trends (2014-2023)**
 From the line chart of sum primary value by period, we observe the following:
