@@ -46,7 +46,7 @@ The World Integrated Trade Solution (WITS) software provides access to internati
 
 <img width="750" alt="Data Source" src="Img/Main_Products.png">
 
-- Secondly, I called API [https://wits.worldbank.org/trade/comtrade/en/country/VNM/year/{YearPeriod}/tradeflow/{Exports or Imports}/partner/ALL/product/{HS Code 4 digit}#] for each `Product`, `Trade flow`, `Year Period`.
+- Secondly, I called API [https://wits.worldbank.org/trade/comtrade/en/country/VNM/year/{YearPeriod}/tradeflow/{Exports_or_Imports}/partner/ALL/product/{HS Code 4 digit}#] for each `Product`, `Trade flow`, `Year Period`.
 - Finally, click download file `Excel` on the right top to download data.
 
 ## General View of Data
