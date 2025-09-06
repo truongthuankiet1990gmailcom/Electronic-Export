@@ -32,7 +32,44 @@ This project focuses on analyzing global export and import data for the years 20
 
 The data will help stakeholders better understand shifts in product demand, identify high-value trade relationships, and explore opportunities for improvement in trade strategy.
 
+
 <a id='section_2'></a>
+
+# Data Source
+## Information
+<img width="750" alt="Data Source" src="Img/Data_Source.png">
+
+The World Integrated Trade Solution (WITS) software provides access to international merchandise trade, tariff and non-tariff measures (NTM) data. Browse the Country profile section to obtain countries exports, imports and tariff statistics along with relevant development data.
+
+## Methods to collect
+- First, I framed [main exported electronic products](https://www.vietnamexportdata.com/blogs/vietnam-electronics-exports-2025-data-report) by HS Code (4 digit):
+
+<img width="750" alt="Data Source" src="Img/Main_Products.png">
+
+- Secondly, I called API "https://wits.worldbank.org/trade/comtrade/en/country/VNM/year/{YearPeriod}/tradeflow/{Exports or Imports}/partner/ALL/product/{HS Code 4 digit}#" for each `Product`, `Trade flow`, `Year Period`.
+- Finally, click download file `Excel` on the right top to download data.
+
+## General View of Data
+<img width="750" alt="Data Source" src="Img/View.png">
+
+| Column Name                  | Description                                                                                                       |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **period**                   | The year of the export data — in this dataset, all rows are from **2016**.                                        |
+| **reporterDesc**             | The reporting country, which is **Vietnam** for all rows.                                                         |
+| **flowDesc**                 | Indicates the trade flow direction — **Export** in all entries.                                                   |
+| **partnerDesc**              | Destination (importing) country for the exported product.                                                         |
+| **isOriginalClassification** | Indicates whether the product classification used is the original one (**True**).                                 |
+| **cmdCode**                  | Commodity code based on the **Harmonized System (HS)** — e.g., 8418 (refrigerators, freezers), 8517 (telephones). |
+| **cmdDesc**                  | Description of the product associated with the **cmdCode**.                                                       |
+| **qty**                      | Quantity exported — always **0** in this dataset, possibly due to missing or unavailable data.                    |
+| **isAlt**                    | Indicates if the record is from an alternative source — mostly **False**.                                         |
+| **netWgt**                   | Net weight (in kilograms) of the exported goods.                                                                  |
+| **isNetWgtEstimated**        | Indicates whether the net weight is estimated — mostly **True**, suggesting estimation methods were used.         |
+| **cifvalue**                 | **Cost, Insurance, and Freight (CIF) value**, which includes shipping costs.                                      |
+| **fobvalue**                 | **Free on Board (FOB) value**, which reflects the value of the goods excluding shipping.                          |
+| **primaryValue**             | The main value used for analysis; often equals **FOB value**.                                              |
+
+<a id='section_3'></a>
 
 # Key Metrics & Insights
 
@@ -102,7 +139,7 @@ The import data shows a strong dominance of a few product categories:
 - **Rep. of Korea** follows as the second-largest partner, with $61.97 billion in imports. This is likely driven by the demand for smartphones and other mobile technologies, with Korea being a major player in these industries.
 - **Thailand** and other **Southeast Asian countries (Malaysia, Indonesia)** also appear as notable import partners, receiving a significant portion of the import value, primarily in the form of technology products.
 
-3. **Yearly Trends (2014-2023)**
+### 3. **Yearly Trends (2014-2023)**
 From the line chart of sum primary value by period, we observe the following:
 
 - There is a clear upward trend in imports for `cmdCode 8517 (telecommunication products)` since 2017, especially post-2020, indicating a surge in demand for smartphones and telecommunications infrastructure products.
@@ -124,7 +161,7 @@ From the line chart of sum primary value by period, we observe the following:
 <a id='section_4'></a>
 
 # Recommendations & Next Steps
-- Monitor Export Performance: The strong performance of cmdCode 8517 (telecommunication products) should be leveraged to explore new markets for similar products or related goods.
-- Strengthen Trade Relations with Top Partners: Given the dominance of China, USA, and Rep. of Korea, focus on optimizing trade relations with these countries, enhancing product offerings based on demand.
-- Investigate Import Opportunities: The import data suggests certain cmdCodes (e.g., 8418 related to refrigerating equipment) are underperforming. Investigating these areas for potential growth or cost-saving opportunities may be beneficial.
-- Explore New Markets: Expanding partnerships with emerging markets, especially in regions like India and Southeast Asia, could further drive trade value and diversification.
+- **Monitor Export Performance:** The strong performance of cmdCode 8517 (telecommunication products) should be leveraged to explore new markets for similar products or related goods.
+- **Strengthen Trade Relations with Top Partners:** Given the dominance of China, USA, and Rep. of Korea, focus on optimizing trade relations with these countries, enhancing product offerings based on demand.
+- **Investigate Import Opportunities:** The import data suggests certain cmdCodes (e.g., 8418 related to refrigerating equipment) are underperforming. Investigating these areas for potential growth or cost-saving opportunities may be beneficial.
+- **Explore New Markets:** Expanding partnerships with emerging markets, especially in regions like India and Southeast Asia, could further drive trade value and diversification.
