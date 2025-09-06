@@ -71,6 +71,11 @@ The World Integrated Trade Solution (WITS) software provides access to internati
 
 <a id='section_3'></a>
 
+### Column Distribution and Quality
+<img width="750" alt="Column Distribution and Quality" src="Img/Column_Quality_1.png.png">
+<img width="750" alt="Column Distribution and Quality" src="Img/Column_Quality_2.png.png">
+
+
 # Key Metrics & Insights
 
 ## Total Value:
@@ -91,7 +96,7 @@ The World Integrated Trade Solution (WITS) software provides access to internati
 - Other key partners include the USA, Rep. of Korea, and United Arab Emirates.
 
 ## Yearly Trends:
-- There is a clear upward trend in cmdCode 8517 (Telephone sets) across 2013-2025, particularly driven by telecommunications equipment.
+- There is a clear upward trend in cmdCode 8517 (Telephone sets) across 2013-2023, particularly driven by telecommunications equipment.
 - Export performance consistently exceeds import performance in this period.
 
 <a id='section_3'></a>
@@ -139,7 +144,7 @@ The import data shows a strong dominance of a few product categories:
 - **Rep. of Korea** follows as the second-largest partner, with $61.97 billion in imports. This is likely driven by the demand for smartphones and other mobile technologies, with Korea being a major player in these industries.
 - **Thailand** and other **Southeast Asian countries (Malaysia, Indonesia)** also appear as notable import partners, receiving a significant portion of the import value, primarily in the form of technology products.
 
-### 3. **Yearly Trends (2014-2023)**
+### 3. **Yearly Trends (2013-2023)**
 From the line chart of sum primary value by period, we observe the following:
 
 - There is a clear upward trend in imports for `cmdCode 8517 (telecommunication products)` since 2017, especially post-2020, indicating a surge in demand for smartphones and telecommunications infrastructure products.
