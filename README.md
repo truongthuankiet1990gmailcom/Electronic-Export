@@ -72,8 +72,8 @@ The World Integrated Trade Solution (WITS) software provides access to internati
 <a id='section_3'></a>
 
 ### Column Distribution and Quality
-<img width="750" alt="Column Distribution and Quality" src="Img/Column_Quality_1.png.png">
-<img width="750" alt="Column Distribution and Quality" src="Img/Column_Quality_2.png.png">
+<img width="750" alt="Column Distribution and Quality" src="Img/Column_Quality_1.png">
+<img width="750" alt="Column Distribution and Quality" src="Img/Column_Quality_2.png">
 
 
 # Key Metrics & Insights
