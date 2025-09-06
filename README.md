@@ -119,7 +119,7 @@ The largest portion of exports flows to the USA and China, reflecting their impo
 - `Rep. of Korea:` This country contributes $43 billion, ranking third, likely due to its import of high-value consumer electronics and smartphones from the export market.
 - Other notable partners include the **United Arab Emirates, Austria, United Kingdom, Germany, and Netherlands,** each receiving significant export volumes. These countries may play key roles in the global supply chain for technology and communication devices.
 
-### 3. Yearly Trends (2014-2023)
+### 3. Yearly Trends (2013-2023)
 From the line chart of sum primary value by period, I observed the following trends:
 
 - Steady growth in exports, particularly from cmdCode 8517, with a marked increase in exports post-2020, which could be attributed to the increasing demand for telecommunication products globally. This trend mirrors the growth of mobile technology and smartphones in the global market.
